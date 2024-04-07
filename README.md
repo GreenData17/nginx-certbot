@@ -2,9 +2,9 @@
 <div align="left">
 
   <a href="">[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)</a>
-  <a href="">![Docker Automated build](https://img.shields.io/docker/automated/greendata017/nginx_certbot)</a>
-  <a href="">![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/GreenData17/nginx_certbot/docker-build.yaml)</a>
-  <a href="">![Docker Pulls](https://img.shields.io/docker/pulls/greendata017/nginx_certbot)</a>
+  <a href="">![Docker Automated build](https://img.shields.io/docker/automated/greendata017/nginx-certbot)</a>
+  <a href="">![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/GreenData17/nginx-certbot/docker-build.yaml)</a>
+  <a href="">![Docker Pulls](https://img.shields.io/docker/pulls/greendata017/nginx-certbot)</a>
 
 </div>
 
