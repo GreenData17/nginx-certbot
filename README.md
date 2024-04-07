@@ -1,4 +1,4 @@
-# nginx_certbot
+# nginx-certbot
 <div align="left">
 
   <a href="">[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)</a>
@@ -33,7 +33,7 @@ Or pull it directly form the docker repository and use it with a docker-compose 
 ```yaml
 services:
     {SERVICE_NAME}:
-        image: greendata017/nginx_certbot:latest
+        image: greendata017/nginx-certbot:latest
         ports:
             - 80:80
             - 443:443
