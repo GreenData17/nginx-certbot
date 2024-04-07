@@ -3,7 +3,7 @@ name: Build and Push Dcoker Image
 on:
   push:
     branches:
-      - main
+      - deploy
 
 jobs:
   build:
