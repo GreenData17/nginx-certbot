@@ -1,0 +1,22 @@
+name: Build and Push Dcoker Image
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Login to Docker Hub
+      run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
+    - name: Build and push Docker Image
+      run: |
+        docker build -t greendata017/nginx-certbot:latest .
+        docker push greendata017/nginx-certbot:latest
