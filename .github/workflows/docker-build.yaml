@@ -18,5 +18,5 @@ jobs:
 
     - name: Build and push Docker Image
       run: |
-        docker build -t greendata017/nginx-certbot:latest .
-        docker push greendata017/nginx-certbot:latest
+        docker build -t greendata017/nginx_certbot:latest .
+        docker push greendata017/nginx_certbot:latest
