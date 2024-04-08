@@ -62,7 +62,7 @@ services:
             - CERTBOT_DOMAINS=example.com,www.example.com
 ```
 
-## Test
+## Testing
 
 If you need to restart the image a lot, you might get locked out for requesting a certificate to many times. <br/>
 Use this variable to get a temporary certificate, so you can test the image.
