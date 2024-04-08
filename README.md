@@ -61,3 +61,12 @@ services:
             - CERTBOT_EMAIL=mail@example.com
             - CERTBOT_DOMAINS=example.com,www.example.com
 ```
+
+## Test
+
+If you need to restart the image a lot, you might get locked out for requesting a certificate to many times. <br/>
+Use this variable to get a temporary certificate, so you can test the image.
+```yaml
+environment:
+    - CERTBOT_DEBUG="TRUE"
+```
